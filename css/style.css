@@ -1,0 +1,16 @@
+.primario{
+    color: #f5f8fa;
+    background-color: rgb(52, 3, 230);
+}
+
+.abs{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.text-justify{
+    text-align: justify;
+}
