@@ -16,6 +16,12 @@
 
 }
 
+
+.center{
+
+  background-size: cover;
+}
+
 .imagen{
   width: 1349px;
   height: 200px;
@@ -38,3 +44,24 @@
     }
     
     }
+
+    header{
+    
+    background-image:url("../imagenes/codigo.jpg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    
+     }
+
+     .fixed{
+      position: fixed;
+      
+
+     }
+
+     .padd{
+      padding-left: 4rem !important; 
+      
+         }
