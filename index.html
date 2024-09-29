@@ -11,16 +11,19 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   </head>
-  <body class="primario">
+  <body class="sans">
     <header>
       <h4 class="primario text-center">
         Full Stack <span class="text-danger">Programador</span>
       </h4>
     </header>
-    <nav class="navbar navbar-expand-lg primario sticky-top">
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top">
       <div class="container">
-        <a class="navbar-brand primario" href="#"
+        <a class="navbar-brand text-light" href="#"
           ><span class="text-danger">LUIS</span>MARTINEZ<span>Website</span></a
         >
         <button
@@ -35,19 +38,19 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse primario"
+          class="collapse navbar-collapse"
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link primario" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-light" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link primario" href="#">Link</a>
+              <a class="nav-link text-light" href="#">Link</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle primario"
+                class="nav-link dropdown-toggle text-light"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -55,7 +58,7 @@
               >
                 Dropdown
               </a>
-              <ul class="dropdown-menu primario">
+              <ul class="dropdown-menu ">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><hr class="dropdown-divider" /></li>
@@ -65,7 +68,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link primario" aria-disabled="true">Disabled</a>
+              <a class="nav-link text-light" aria-disabled="true">Disabled</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -85,23 +88,9 @@
     <div class="container d-flex">
       <div class="row">
         
-        <div class="col-sm-6"><br>
-          <h1 class="text-light padd">Quien soy ?</h1>
-          <div class="card" style="width: 18rem">
-            <img src="imagenes/luis.jpg" class="card-img-top" alt="..." height="400px"/>
-            <div class="card-body text-center text-justify">
-              <h5 class="card-title">Programador Web</h5>
-              <p class="card-text text-justify">
-                Me llamo Luis Martinez desde que empeze a usar computadora con windows 6.0 la tecnologia 
-                ha estado en mi vida.
-              </p>
-              <span><a href="#" class="btn primario">Leer Mas</a></span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 text-justify"><br>
-          <h1 class="text-center text-justify text-light">Que es el Desarrollo Web?</h1>
-          <img src="imagenes/pc.jfif" alt="" class=" rounded-circle d-block mx-auto">
+        <div class="col-6 text-justify"><br>
+          <h3 class="text-center text-justify text-light">Que es el Desarrollo Web?</h3><br>
+          <img src="imagenes/pc.jfif" alt="" class=" rounded-circle d-block mx-auto"><br>
           <p class="">El desarrollo web es el proceso de crear y mantener sitios web y aplicaciones web que se ejecutan en un navegador de internet. Abarca una amplia gama de tareas y habilidades, desde la codificación de la funcionalidad y el diseño de la interfaz, hasta la gestión de servidores y bases de datos.</p> 
           <span><a href="#" class="btn btn-outline-light">Leer Mas</a></span>
           <hr>
@@ -109,7 +98,10 @@
             
            </div>
 
-      </div>    
+      </div> 
+      <div class="col-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/UB1IkEMUAF4?si=OzfcwvBtqqOnvoDA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+      </div>  
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -123,7 +115,7 @@
     ></script>
 
     <!-- Footer -->
-    <footer class="bg-dark text-center text-lg-start mt-5">
+    <footer class="bg-dark text-center text-lg-start mt-5 text-light">
       <div class="container p-4">
         <!-- Redes Sociales -->
         <section class="mb-4">
