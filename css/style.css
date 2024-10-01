@@ -6,11 +6,11 @@
   font-weight: 500;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 body{
-  background-color: darkcyan;
+  background-color: #EA9D43;
 }
 
 
@@ -44,9 +44,14 @@ body{
 }
 header img{
  position: relative; 
- top: 100px;
- left: 200px;
-width: 100px;
+ top: 60px;
+ left: 150px;
+width: 200px;
+}
+
+.clearfix img{
+width: 200px!important;
+
 }
 
 .container img:first-child{
@@ -55,21 +60,27 @@ width: 100px;
 }
 
 .container>span{
-  color: cyan !important;
+  color: rgb(7, 7, 7) !important;
   font-size: medium;
 }
 
+.barra{
+  background-color: #F2C3A7;
+}
+.container .row .col-6 img{
+width: 200px;
+}
 
 
 
 
     header{
     
-    background-image:url("../imagenes/codigo.jpg");
+    background-image:url("../imagenes/digital.jpg");
     background-color: transparent;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    height: 250px;
     
      }
 
@@ -91,7 +102,7 @@ width: 100px;
 
          .nav-item a:hover{
           font-size: 14px;
-          color: darkcyan!important;
+          color: rgb(6, 7, 7)!important;
          }
 
           .bg-dark .container p{
@@ -103,6 +114,10 @@ width: 100px;
 
          .bg-dark .container  i{
           margin-right: 10px;
+         }
+
+         .tex-center img{
+          width: 50px;
          }
 
          @media(max-width: 480px) {
