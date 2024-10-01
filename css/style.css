@@ -118,9 +118,15 @@ width: 200px;
          }
 
          @media(max-width: 480px) {
-div.col p{
-  text-align: justify;
-}
+
+          div.col p{
+            text-align:justify;
+          }
+
+          span.text-dark:first-child{
+          position: relative;
+          right: 170px;
+         }
          
           .clearfix .col-md-6 h3{
           text-align: center;
