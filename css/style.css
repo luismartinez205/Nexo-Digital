@@ -119,6 +119,16 @@ width: 200px;
 
          @media(max-width: 480px) {
 
+          a.btn.btn-outline-light {
+            margin-left: 120px;
+          }
+          
+          img.col-md-6.float-md-end.mb-3.ms-md-3{
+            margin-left: 90px;
+            
+          }
+          
+          
           div.col p{
             text-align:justify;
           }
