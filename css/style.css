@@ -1,7 +1,15 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
 
-
+.clearfix img{
+padding: 20px;
+margin-left:90px ;
+object-fit:cover ;
+}
 .sans {
-  font-family: "Open Sans", sans-serif;
+  font-family: "raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -11,6 +19,7 @@
 
 body{
   background-color: #EA9D43;
+  color: rgb(23, 36, 36);
 }
 
 
@@ -144,7 +153,7 @@ width: 200px;
          
           .clearfix img{
             width: 150px!important;
-            
+            margin-left: 60px;
             }
 
 
