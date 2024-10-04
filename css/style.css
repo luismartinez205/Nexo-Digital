@@ -141,27 +141,25 @@ body{
 
          @media(max-width: 480px) {
 
-          a.btn.btn-outline-light {
-            margin-left: 115px;
-          }
+          
           
           .col span{
-            margin-left: 1px;
+            margin-left: 120px;
           }
           .clearfix span{
-            margin-left: 0px;
+            margin-left: 150px;
           }
           
            .m-4 img[class='div_img']{
           width: 300px;
-          margin-left: 0px;
+          margin-left: 40px;
           margin-bottom: 20px;
           margin-top: 10px;
          }
 
          .m-4 img[alt]{
           width: 200px;
-          margin-left: 50px;
+          margin-left: 85px;
           margin-bottom: 20px;
          }
           
