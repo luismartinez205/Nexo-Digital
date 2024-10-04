@@ -146,18 +146,12 @@ body{
             margin-left: 90px;
             
           }
-          .m-4 img[class='div_img']{
-            width: 300px;
-            margin-left: 0px;
-            margin-bottom: 20px;
-            margin-top: 10px;
-           }
-
-           .m-4 img[alt]{
-            width: 200px;
-            margin-left: 45px;
-            margin-bottom: 20px;
-           }
+           .m-4 img[class='div_img']{
+          width: 300px;
+          margin-left: 0px;
+          margin-bottom: 20px;
+          margin-top: 10px;
+         }
           
           
           div.col p{
