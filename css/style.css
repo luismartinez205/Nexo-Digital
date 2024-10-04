@@ -4,13 +4,7 @@
   box-sizing: border-box;
 }
 
-.clearfix img{
-padding: 20px;
-margin-left:55px ;
-width: 200px;
 
-
-}
 
 
 .sans {
@@ -120,8 +114,19 @@ body{
          }
 
          /*todas las imagenes*/
-         .col  img{
-          width: 250px;
+         .m-5  img{
+          width:200px;
+         }
+
+         .m-4 img[alt]{
+          width: 200px;
+          margin-left: 90px;
+          margin-bottom: 20px;
+         }
+
+         .m-4 img[class='div_img']{
+          width: 300px;
+          margin-left: 49px;
          }
 
          a.btn.btn-outline-light {
@@ -155,7 +160,7 @@ body{
          }
          
            .clearfix img{
-            width: 300px ;
+            width: 0px ;
             margin-left:0px;
             margin-bottom: 10px;
             margin-top: 1opx;
