@@ -127,6 +127,8 @@ body{
          .m-4 img[class='div_img']{
           width: 300px;
           margin-left: 49px;
+          margin-bottom: 20px;
+          margin-top: 10px;
          }
 
          a.btn.btn-outline-light {
