@@ -154,8 +154,8 @@ body{
           text-align: center;
          }
          
-          .clearfix img{
-            width: 50px;
+           .clearfix img{
+            width: 200px ;
             margin-left: 60px;
             }
 
@@ -181,8 +181,8 @@ body{
           
           }
 
-          .container .row .col img{
-            width: 250px;
+          .m-5 img{
+            width: 200px;
             margin-left: 20px;
             padding:0px ;
             margin-bottom: 20px;
