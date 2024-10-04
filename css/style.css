@@ -142,15 +142,18 @@ body{
             margin-left: 115px;
           }
           
-          img.col-md-6.float-md-end.mb-3.ms-md-3{
-            margin-left: 90px;
-            
-          }
+        
            .m-4 img[class='div_img']{
           width: 300px;
           margin-left: 0px;
           margin-bottom: 20px;
           margin-top: 10px;
+         }
+
+         .m-4 img[alt]{
+          width: 200px;
+          margin-left: 50px;
+          margin-bottom: 20px;
          }
           
           
