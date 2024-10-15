@@ -1,2 +1,2 @@
 # new-web
-<a href="luismartinez205.github.io/new-web">proyecto</a>
+<a href="https://luismartinez205.github.io/new-web">proyecto</a>
