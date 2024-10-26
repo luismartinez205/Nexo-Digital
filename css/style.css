@@ -114,11 +114,11 @@ p {
   /* background-color: #5e7bb57a; */
 }
 .header_img {
-  width: 131px;
+  width: 171px;
   color: #000000da;
   font-size: 42px;
   position: absolute;
-  top: 424px;
+  top: 375px;
   left: 1015px;
 }
 .cta {
@@ -198,6 +198,25 @@ header {
   position: absolute;
   top: 587px;
   left: 863px;
+}
+.card_main{
+  display: flex;
+  flex-direction: row;
+  margin-left: 123px;
+}
+.main_card{
+  margin-left: 127px;
+}
+.card{
+  width: 300px;
+  height: 373px;
+}
+.card_img{
+  width: 290px;
+  height: 218px;
+  margin: 12px auto;
+  margin-left: 54px;
+  border-radius: 8px;
 }
 
 @media (max-width: 480px) {
