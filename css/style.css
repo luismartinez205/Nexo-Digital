@@ -122,13 +122,15 @@ p {
   left: 1015px;
 }
 .cta {
-  position: absolute;
-  top: 579px;
-  left: 604px;
-  color: black;  
-  height: 60px;
-  border-radius: 50px;
-  --bs-btn-padding-y: 0.999rem;
+    position: absolute;
+    top: 424px;
+    left: 619px;
+    color: #fff;
+    background-color: #212529;
+    height: 60px;
+    border-radius: 50px;
+    --bs-btn-padding-y: 0.999rem;
+
 }
 
 header {
@@ -136,7 +138,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 20%;
-  height: 594px;
+  height: 494px;
   
 }
 
