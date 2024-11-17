@@ -222,6 +222,17 @@ header {
 }
 
 @media (max-width: 480px) {
+ .cta {
+    position: absolute;
+    top: 312px;
+    left: 80px;
+    color: #fff;
+    background-color: #212529;
+    height: 60px;
+    border-radius: 50px;
+    --bs-btn-padding-y: 0.999rem;
+}
+  
   .col span {
     margin-left: 120px;
   }
