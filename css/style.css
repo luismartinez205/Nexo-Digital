@@ -57,10 +57,9 @@ p {
   border-radius: 10px;
 }
 .col_img{
-  width: 924px;
-  height: 532px;
-  border-radius: 191px;
-  margin-left: 63px;
+    width: 600px;
+    height: 332px;
+    margin-left: 293px;
 }
 
 .text-info {
