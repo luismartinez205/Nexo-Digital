@@ -17,6 +17,7 @@
 }
 .bg-dark{
   background-color: rgb(10 12 122 / 83%) !important;
+  padding: 20px;
 }
 .div_img {
   width: 350px;
