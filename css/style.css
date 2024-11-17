@@ -5,7 +5,12 @@
   padding: 0px;
   box-sizing: border-box;
 }
-
+.header_wha{
+    width: 5rem;
+    position: fixed;
+    bottom: 175px;
+    right: 30px;
+}
 .clearfix-img {
   width: 120px;
   margin-bottom: 10px;
