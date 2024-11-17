@@ -327,6 +327,12 @@ header {
     margin-bottom: 20px;
     margin-top: 10px;
   }
+  .main_card{
+    flex-direction: column;
+  }
+  .card_img{
+    border-radius: 0%;
+  }
 }
 
 @media (max-width: 768px) {
