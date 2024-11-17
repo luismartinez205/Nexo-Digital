@@ -207,7 +207,7 @@ header {
   margin-left: 123px;
 }
 .main_card{
-  margin-left: 127px;
+  display:flex;
 }
 .card{
   width: 300px;
@@ -215,8 +215,7 @@ header {
 }
 .card_img{
     width: 300px;
-    aspect-ratio: 1/1;
-    aspect-direction: top center;
+    aspect-ratio: 1/1;   
     object-fit: cover;
     margin: 8px auto;
     border-radius: 50%;
