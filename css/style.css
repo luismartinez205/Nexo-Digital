@@ -22,7 +22,7 @@
    
 }
 .bg-dark{
-  background-color: rgb(10 12 122 / 83%) !important;
+  background-color: #fff !important;
   padding: 20px;
 }
 .div_img {
@@ -120,6 +120,7 @@ p {
 .navbar span {
     font-weight: 600;
     font-size: 21px;
+  color: #0000fd;
 }
 
 .barra {
