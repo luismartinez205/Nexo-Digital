@@ -244,8 +244,18 @@ header {
 }
 
 @media (max-width: 480px) {
+  .mb-3 {
+    
+    color: blue;
+}
+  
+  .navbar span {
+       font-size: 17px;
+   }
+  
+  
   p{
-    width: 370px;
+    width: 316px;
   }
  .cta {
     position: absolute;
