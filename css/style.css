@@ -61,6 +61,7 @@ p {
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #f8f9fa;
   --bs-gradient: none;
+  border-radius: 50%;
 }
 .col {
     display: flex;
