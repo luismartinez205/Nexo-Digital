@@ -16,10 +16,10 @@
   margin-bottom: 10px;
 }
 .nexu_img{
-    width: 4em;
+    
     object-fit: cover;
     object-position: top center;
-    border-radius: 50%;
+   
 }
 .bg-dark{
   background-color: rgb(10 12 122 / 83%) !important;
@@ -108,7 +108,7 @@ p {
 
 /*logo barra de navegacion*/
 .navbar img {
-  width: 30px;
+  width: 58px;
   margin-right: 10px;
   margin-left: 29px;
 }
