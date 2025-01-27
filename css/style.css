@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 .header_wha{
-    width: 5rem;
+    width: 3rem;
     position: fixed;
     bottom: 175px;
     right: 30px;
@@ -22,7 +22,7 @@
    
 }
 .bg-dark{
-  background-color: #fff !important;
+  background-color: hsl(215.14deg 62.9% 31.6%) !important;
   padding: 20px;
 }
 .div_img {
@@ -49,14 +49,14 @@ p {
     font-size: 16px;
     font-weight: 500;
     text-align: justify;
-    width: 800px;
+    width: 600px;
     line-height: 30px;
 }
 .btn-outline-light {
-    --bs-btn-color: #c17a1a;
-    --bs-btn-border-color: #dfa616;
+       /* --bs-btn-color: #c17a1a; */
+    /* --bs-btn-border-color: #dfa616; */
     --bs-btn-hover-color: #120c71;
-    --bs-btn-hover-bg: #f8f9fa;
+    /* --bs-btn-hover-bg: #f8f9fa; */
     --bs-btn-hover-border-color: #ebbc14;
     --bs-btn-focus-shadow-rgb: 248, 249, 250;
     --bs-btn-active-color: #000;
@@ -118,9 +118,9 @@ p {
 }
 
 .navbar span {
-    font-weight: 600;
-    font-size: 21px;
-  color: #0000fd;
+  font-weight: 600;
+  font-size: 21px;
+  color: #ff914d;
 }
 
 .barra {
@@ -143,14 +143,16 @@ p {
   left: 1015px;
 }
 .cta {
-    position: absolute;
-    top: 424px;
-    left: 619px;
-    color: #fff;
-    background-color: #212529;
-    height: 60px;
-    border-radius: 50px;
-    --bs-btn-padding-y: 0.999rem;
+  position: absolute;
+  top: 424px;
+  left: 619px;
+  color: #fff;
+  background-color: #ffc107;
+  height: 60px;
+  border-radius: 50px;
+  --bs-btn-padding-y: 0.999rem;
+  --bs-btn-border-color: #ffc107;
+  font-weight: 700;
 
 }
 
@@ -240,7 +242,25 @@ header {
     width: 300px;
     aspect-ratio: 1/1;   
     object-fit: fill;    
-    border-radius: 50%;
+    
+}
+
+.nav{
+  height: 90px;
+}
+
+.text-dark {
+  color: #000000da;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h1{
+  font-size: 1.5rem;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffc107;
 }
 
 @media (max-width: 480px) {
@@ -369,6 +389,14 @@ header {
     width: 80%;
     margin-left: 40px;
   }
+}
+
+.p-4{
+      padding: 1.5rem!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
