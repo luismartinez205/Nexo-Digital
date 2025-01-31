@@ -5,11 +5,24 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+
+  
+
 .header_wha{
     width: 3rem;
     position: fixed;
     bottom: 175px;
     right: 30px;
+   
+    transition: width,transform 0.5s;
+}
+
+.header_wha:hover{
+    width: 3.5rem;
+    transform: scale(2);
+   
+   
 }
 .clearfix-img {
   width: 120px;
@@ -241,12 +254,18 @@ header {
 .card_img{
     width: 300px;
     aspect-ratio: 1/1;   
-    object-fit: fill;    
+    object-fit: fill; 
+    transition: transform,filter,border-radius 0.5s ease;
     
 }
-
+.card_img:hover{
+    transform: scale(0.7);   
+    filter: grayscale(20); 
+    cursor: pointer; 
+    border-radius: 50%;
+}
 .nav{
-  height: 90px;
+  height: 70px;
 }
 
 .text-dark {
@@ -263,6 +282,13 @@ h1{
   color: #ffc107;
 }
 
+.navbar-brand:focus, .navbar-brand:hover {
+  color: #ffc107;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
 @media (max-width: 480px) {
   .mb-3 {
     
